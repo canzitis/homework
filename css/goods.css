@@ -1,0 +1,341 @@
+html{
+    color: white;
+    line-height: 1.4;
+}
+
+body{
+    margin: 0;  
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+ /*====================== HEADER ======================== */
+
+.header{ 
+    position: fixed;
+
+    width: 100%;
+    height: 60px;
+
+    padding-top: 12px;
+
+    background-color: rgb(21, 39, 44);
+ }
+
+ .header-inner{
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: 250px;
+}
+
+ .logo-company img{
+    height: 60px;
+    width: 300px;
+}
+
+.header-nav-link{
+padding-top: 10px;
+padding-right: 10px;
+}
+
+.header-nav-link img{
+     width: 20px;
+     height: 20px; 
+     padding-right: 10px;    
+     padding-top: 5px;
+ }
+
+.header-nav-link a{
+    font-size: 22px;
+    font-weight: 500;
+
+    color: rgb(208 45 36);
+     text-decoration: none;
+ }
+
+
+
+.ru-en a{
+    margin-top: rem;
+    margin-left: 30rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(208 45 36);
+    text-decoration: none;
+}
+
+.basket img{
+    padding-top: 8px;
+     margin-right: 4rem;
+     
+ }
+ 
+.pap{
+    position: fixed;
+    width: 100%;
+    height: 7px;
+    margin-top: 70px;
+    background-color:white;
+}
+
+
+/*====================== CONTENT ======================== */
+
+.call-back{
+    width: 500px;
+
+    margin-left: 15rem;
+
+    text-align: center;
+
+    color:rgb(208 45 36);
+
+}
+
+.call-back-window{
+    position: fixed;
+ 
+     margin-top: 300px;
+     width: 500px;
+     height: 200px;
+ 
+     font-size: 16px;
+     color:black;
+     text-align: center;
+     background-color:rgb(84, 161, 175);
+     
+     margin-left: 35%;
+ 
+     display: none;
+ 
+     border: 5px solid black;
+ 
+     border-radius: 50px
+}
+ 
+.call-back-window h3{
+     text-align: center;
+     margin-top: 25px;
+}
+.input-tel{
+    width: 200px;
+    height: 20px;
+
+    font-size: 20px;
+
+    margin-top: 20px;
+}
+
+.input-button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+
+    border-radius: 20px;
+}
+
+.close-img-call-back{
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:white;
+    
+    margin-left: 500px;
+    margin-top: 20px;
+}
+ 
+.goods-item{
+    background-color: rgb(31, 35, 48);
+    background-repeat: no-repeat;
+
+    padding-bottom: 50px;
+}
+
+.goods-item-i{
+    width: 300px;
+    height: 570px;
+
+    margin-top: 100px;
+
+    color: white;
+
+    padding-top: 20px;
+    text-align: center;
+    border: 1px solid wheat;
+}
+
+.goods-item-i p{
+    border-top:1px solid wheat;
+}
+
+.price h3{
+    font-size: 25px;
+    color: bisque;
+}
+
+.goods-item-i button{
+    width: 100px;
+    height: 30px;
+
+    font-size: 17px;
+
+    border-radius: 20px;
+    border: 2px solid black;
+    
+    background-color:rgb(79, 172, 79)
+}
+
+
+
+.goods-item-n{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*====================== FOOTER ======================== */
+
+
+.connection-info-item{
+    font-size: 20px;
+    text-align: center;
+
+    width: 100%;
+    height: 150px;
+
+    border-top: 5px solid black;
+
+    display: flex;
+    justify-content:center;
+  
+    background-color: rgb(21, 39, 44);
+}
+
+.connection-info-item h1{
+     font-size: 15px;
+}
+    
+
+.connection-info-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.buy-btn:hover{
+    cursor: pointer;
+    background-color: rgb(4, 71, 4);
+    }
+    
+    .header-nav-link:hover{
+        text-decoration: underline;
+    }
+    
+    .connection-info:hover{
+        text-decoration: underline;
+    }
+
+/*====================== CALL-BACK ======================== */
+.call-back{
+    width: 500px;
+
+    margin-left: 15rem;
+
+    text-align: center;
+
+    color:rgb(208 45 36);
+}
+
+.call-back button{
+    width: 150px;
+    height: 40px;
+
+    margin-top: 20px;
+
+    position: relative;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    border: 2.5px solid black;
+
+    border-radius: 50px;
+
+    text-align: center;
+}
+
+
+.call-back button:hover{
+    cursor: pointer;
+    background-color:rgb(208 45 36);
+}
+
+.call-back-window img:hover{
+    cursor: pointer;
+    background-color:rgb(208 45 36);
+}
+
+.call-back-window button:hover{
+    cursor: pointer;
+    background-color:rgb(208 45 36);
+}
+
+.call-back-window{
+   position: fixed;
+
+    margin-top: 300px;
+    width: 500px;
+    height: 200px;
+
+    font-size: 16px;
+    color:black;
+    text-align: center;
+    background-color:rgb(84, 161, 175);
+    
+    margin-left: 35%;
+
+    display: none;
+
+    border: 5px solid black;
+
+    border-radius: 50px
+}
+
+.call-back-window h3{
+    
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input-tel{
+    width: 200px;
+    height: 20px;
+
+    font-size: 20px;
+
+    margin-top: 20px;
+}
+
+.input-button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+
+    border-radius: 20px;
+}
+
+.close-img-call-back{
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:white;
+    
+    margin-left: 500px;
+    margin-top: 20px;
+}

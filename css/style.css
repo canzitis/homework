@@ -1,0 +1,399 @@
+html{
+    color: white;
+    line-height: 1.4;
+}
+
+body{
+    margin: 0;  
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+ /*============== HEADER=============== */
+
+.header{ 
+    position: fixed;
+
+    width: 100%;
+    height: 60px;
+
+    padding-top: 12px;
+
+    background-color: rgb(21, 39, 44);
+ }
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: 250px;
+}
+
+.logo-company img{
+    height: 60px;
+    width: 300px;
+}
+
+.header-nav-link{
+padding-top: 10px;
+padding-right: 10px;
+}
+
+.header-nav-link img{
+     width: 20px;
+     height: 20px; 
+     padding-right: 10px;    
+     padding-top: 5px;
+}
+
+.header-nav-link a{
+    cursor: pointer;
+   
+
+    font-size: 22px;
+    font-weight: 500;
+
+    color: rgb(208 45 36);
+    text-decoration: none;
+}
+
+
+.ru-en a{
+    margin-top: rem;
+    margin-left: 30rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(208 45 36);
+    text-decoration: none;
+}
+
+ 
+.pap{
+    position: fixed;
+    width: 100%;
+    height: 7px;
+    margin-top: 70px;
+    background-color:white;
+}
+
+ /*============== CONTENT =============== */
+
+.content-page{
+    padding-top: 100px;
+    width: 100%;
+    background-image:url('../img/background-picture.png');
+    background-repeat: repeat-y;
+}
+
+ .content-info{
+     font-size: 18px;
+     width: 1400px;
+     text-align: center;
+
+     margin: auto;
+     padding: 40px;
+    
+     background-image: url('../img/content-page-background.jpg');
+     background-repeat: no-repeat;
+     background-size: 100%;   
+ }
+.advertising-discount{
+    margin-top: 25px;
+
+    color: red;
+
+    text-align: center;
+}
+
+ .advertising-product{
+    width:100%;
+    height: 400px;
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ .advertising-product-item{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+ }
+
+ .advertising-product-item img{
+     width: 300px;
+     height: 300px;
+
+     margin-top: 10px;
+     margin-left: 10px;
+    
+     border: 1px solid black;
+ }
+
+ .advertising-product-text {
+     width: 400px;
+     height: 300px;
+     text-align: center;  
+ }
+
+ .content-info-bottom{
+    font-size: 18px;
+    width: 1400px;
+    text-align: center;
+
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+   
+    background-image: url('../img/content-page-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;   
+ }
+
+ .content-info-bottom-women h3{
+     font-size: 25px;
+     margin-top: 30px;
+
+     border-top: solid 2px black;
+ }
+
+.content-info-bottom-women h1{
+    font-size:35px;
+    padding-top: 50px;
+}
+
+ .content-info-bottom-women{
+    margin-top: 20px;
+
+    font-family: cursive;
+    text-align: center;
+    
+    width: 100%;
+    height: 1100px;
+    color: rgb(56, 37, 40);
+
+    background-image:url('../img/product-women/fon-oboi-pikseli-kvadrat-rozovyi.jpg');
+    background-repeat: no-repeat;
+ }
+ 
+ .product-women-1{
+    display: flex;
+    justify-content:center;
+ }
+
+.product-women-2{
+    display: flex;
+    justify-content:center;
+ }
+
+ .container-product-women-item img{
+    width: 400px;
+    height: 400px;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+ }
+
+ /*============== FOOTER =============== */
+
+
+ 
+.connection-info-item{
+    font-size: 20px;
+    text-align: center;
+
+    width: 100%;
+    height: 150px;
+
+    border-top: 5px solid black;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content:center;
+  
+    background-color: rgb(21, 39, 44);
+ }
+
+ .connection-info-item h1{
+     font-size: 15px;
+ }
+    
+
+.connection-info-item a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.advertising h3{
+    font-size: 30px;
+    color: red;
+}
+
+.advertising a {
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.chair-advertising{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.table-advertising{
+    width: 100px;
+    height: 100px;
+}
+
+.close-advertising{
+    width: 30px;
+    height: 30px;
+    
+    margin-top: 75px;
+    margin-right: 380px;
+}
+
+.close-advertising{
+    cursor:pointer
+}
+
+.header-nav-link a:hover:after {
+    text-decoration: underline;
+}
+
+.connection-info:hover{
+    text-decoration: underline;
+}
+
+.advertising{
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+
+    height: 500px;
+    width: 400px;
+
+    margin-left: 10px;
+    background-color:rgba(38, 72, 82, 0.918);
+
+    top: -500;
+    bottom: 300px;
+
+    display: none;
+
+    padding: 10px;
+}
+
+/*====================== CALL-BACK ======================== */
+
+
+.call-back{
+    width: 500px;
+
+    margin-left: 15rem;
+
+    text-align: center;
+
+    color:rgb(208 45 36);
+
+}
+
+.call-back button{
+    width: 150px;
+    height: 40px;
+
+    margin-top: 20px;
+
+    position: relative;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    border: 2.5px solid black;
+
+    border-radius: 50px;
+
+    text-align: center;
+}
+
+
+.call-back button:hover{
+    cursor: pointer;
+    background-color:rgb(208 45 36);
+}
+
+.call-back-window img:hover{
+    cursor: pointer;
+    background-color:rgb(208 45 36);
+}
+
+.call-back-window button:hover{
+    cursor: pointer;
+    background-color:rgb(208 45 36);
+}
+
+.call-back-window{
+   position: fixed;
+
+    margin-top: 300px;
+    width: 500px;
+    height: 200px;
+
+    font-size: 16px;
+    color:black;
+    text-align: center;
+    background-color:rgb(84, 161, 175);
+    
+    margin-left: 35%;
+
+    display: none;
+
+    border: 5px solid black;
+
+    border-radius: 50px
+}
+
+.call-back-window h3{
+    
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input-tel{
+    width: 200px;
+    height: 20px;
+
+    font-size: 20px;
+
+    margin-top: 20px;
+}
+
+.input-button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+
+    border-radius: 20px;
+}
+
+.close-img-call-back{
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:white;
+    
+    margin-left: 500px;
+    margin-top: 20px;
+}

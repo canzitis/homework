@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotions</title>
+    <link rel="stylesheet" href="./css/promotions.css">
+</head>
+
+<body>
+    <!--------------------------------------Звонок -------------------------------------->
+    <div class="call-back-window">
+        <h3>Введите ваш номер телеофна в формате 8-хxx-xxx-xx-хх:</h3>
+        <form action="">
+            <input id='input-tel' class="input-tel" type="tel" name='tel'
+                pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            <div>
+                <input id='input-tel-btn' class="input-button" type="submit" value="Отправить">
+            </div>
+        </form>
+        <img class="close-img-call-back" src="./img/close-img.png" alt="">
+    </div>
+    <!--------------------------------------Звонок -------------------------------------->
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo-company"><img src="./img/logo-compan.png" alt=""></div>
+            <div class="header-nav-link"><img src="./img/Home.png" alt=""><a href="./index.html">Главная</a></div>
+            <div class="header-nav-link"><img src="./img/Shop.png" alt=""><a href="./goods.html">Товары</a></div>
+            <div class="header-nav-link"><img src="./img/Flame.png" alt=""><a href="./promotions.html">Акции</a></div>
+            <div class="header-nav-link"><img src="./img/Information.png" alt=""><a href="./about-us.html">О
+                    нас</a></div>
+        </div>
+    </header>
+    <div class="pap"></div>
+
+    <content>
+        <div class="works-window">
+            <img src="./img/logo-compan.png" alt="">
+            <h3>Ведутся технические работы</h3>
+            <p>Наш сайт находится на техническом обслуживании и скоро будет доступен.</p>
+            <h4 class="link-text">Свяжитесь с нами</h4>
+            <div class="phone-info">
+                <div class="phone-1"><img src="./img/Phone.png" alt=""><a href="tel:88002005919">8 800 200-59-19</a></div>
+                <div class="phone-2"><img src="./img/Phone.png" alt=""><a href="tel:88007752839">8 800 775-28-39</a></div>
+            </div>
+            <div class="messages">
+                <div><a href=""><img src="./img/messages/Instagram.png" alt=""></a></div>
+                <div><a href=""><img src="./img/messages/Facebook.png" alt=""></a></div>
+                <div><a href=""><img src="./img/messages/Gmail.png" alt=""></a></div>
+                <div><a href=""><img src="./img/messages/Skype.png" alt=""></a></div>
+                <div><a href=""><img src="./img/messages/Viber.png" alt=""></a></div>
+                <div><a href=""><img src="./img/messages/Telegram.png" alt=""></a></div>
+                <div><a href="https://vk.com/dxracers"><img src="./img/messages/Vk.png" alt=""></a></div>
+                <div><a href=""><img src="./img/messages/Whatsapp.png" alt=""></a></div>
+            </div>
+        </div>
+
+    </content>
+
+    <footer>
+        <div class="connection-info-item">
+            <div>
+                <h4>Связь с нами:</h4>
+                <div><a class='connection-info' href="emalto:info@dxracers.ru">Наша почта: info@dxracers.ru</a>
+                </div>
+                <div><a class='connection-info' href="tel:88007752839">Телефон: 88007752839</a></div>
+                <div><a class='connection-info' href="https://vk.com/dxracers">Мы ВКонтакте</a></div>
+            </div>
+            <div class="call-back">
+                <h4>Остались какие-то вопросы. Оставьте свой номер телефона,наш менеджер с вами свяжется:</h4>
+                <button class="call-back-btn">Заказать звонок</button>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
